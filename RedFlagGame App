@@ -1,0 +1,271 @@
+package com.example.myapplication;
+
+import android.content.Intent;
+import android.os.Bundle;
+import android.view.View;
+import android.widget.Button;
+
+import androidx.appcompat.app.AppCompatActivity;
+
+import com.example.myapplication.MainActivity2;
+import com.example.myapplication.R;
+
+public class MainActivity extends AppCompatActivity implements View.OnClickListener {
+
+    @Override
+    protected void onCreate(Bundle savedInstanceState) {
+        super.onCreate(savedInstanceState);
+        setContentView(R.layout.activity_main);
+
+        // Find all the buttons
+        Button button1 = findViewById(R.id.button1);
+        Button button2 = findViewById(R.id.button2);
+        Button button3 = findViewById(R.id.button3);
+        Button button4 = findViewById(R.id.button4);
+        Button button5 = findViewById(R.id.button5);
+        Button button6 = findViewById(R.id.button6);
+        Button button7 = findViewById(R.id.button7);
+        Button button8 = findViewById(R.id.button8);
+        Button button9 = findViewById(R.id.button9);
+
+        // Set the OnClickListener for all buttons
+        button1.setOnClickListener(this);
+        button2.setOnClickListener(this);
+        button3.setOnClickListener(this);
+        button4.setOnClickListener(this);
+        button5.setOnClickListener(this);
+        button6.setOnClickListener(this);
+        button7.setOnClickListener(this);
+        button8.setOnClickListener(this);
+        button9.setOnClickListener(this);
+    }
+
+    @Override
+    public void onClick(View v) {
+        // Start MainActivity2 when any button is clicked
+        Intent intent = new Intent(this, MainActivity2.class);
+        startActivity(intent);
+    }
+}
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:background="@color/gray"
+    android:gravity="center">
+
+
+    <!-- Big Container -->
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="6dp"
+        android:layout_marginBottom="80dp"
+        android:text="Home Page"
+        android:textColor="@android:color/black"
+        android:textSize="30sp"
+        android:textStyle="bold" />
+
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:gravity="center">
+
+        <!-- Left-side Oblogs -->
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:orientation="vertical"
+            android:gravity="center"
+            tools:ignore="ExtraText">
+
+
+            <Button
+                android:id="@+id/button1"
+                android:layout_width="170dp"
+                android:layout_height="80dp"
+                android:layout_margin="8dp"
+                android:text="🚩"
+                android:textSize="30sp"
+                android:textColor="@android:color/black"
+                android:background="@drawable/oblong_background"
+
+                />
+
+
+            <Button
+                android:id="@+id/button2"
+
+                android:layout_width="170dp"
+                android:layout_height="80dp"
+                android:layout_margin="8dp"
+                android:text="🚩"
+                android:textSize="30sp"
+                android:textColor="@android:color/black"
+                android:background="@drawable/oblong_background"
+                 />
+
+            <Button
+                android:id="@+id/button3"
+
+                android:layout_width="170dp"
+                android:layout_height="80dp"
+                android:layout_margin="8dp"
+                android:text="🚩"
+                android:textSize="30sp"
+                android:textColor="@android:color/black"
+                android:background="@drawable/oblong_background"
+                 />
+
+            <Button
+                android:id="@+id/button4"
+
+                android:layout_width="170dp"
+                android:layout_height="80dp"
+                android:layout_margin="8dp"
+                android:text="🚩"
+                android:textSize="30sp"
+                android:textColor="@android:color/black"
+                android:background="@drawable/oblong_background"
+                />
+
+            <Button
+                android:id="@+id/button5"
+
+                android:layout_width="170dp"
+                android:layout_height="80dp"
+                android:layout_margin="8dp"
+                android:text="🚩"
+                android:textSize="30sp"
+                android:textColor="@android:color/black"
+                android:background="@drawable/oblong_background"
+                />
+
+        </LinearLayout>
+
+        <!-- Right-side Oblogs -->
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:orientation="vertical"
+            android:gravity="center">
+
+            <Button
+                android:id="@+id/button6"
+                android:layout_width="170dp"
+                android:layout_height="80dp"
+                android:layout_margin="8dp"
+                android:text="🚩"
+                android:textSize="30sp"
+                android:textColor="@android:color/black"
+                android:background="@drawable/oblong_background"
+                 />
+
+            <Button
+                android:id="@+id/button7"
+
+                android:layout_width="170dp"
+                android:layout_height="80dp"
+                android:layout_margin="8dp"
+                android:text="🚩"
+                android:textSize="30sp"
+                android:textColor="@android:color/black"
+                android:background="@drawable/oblong_background"
+                 />
+
+            <Button
+                android:id="@+id/button8"
+
+                android:layout_width="170dp"
+                android:layout_height="80dp"
+                android:layout_margin="8dp"
+                android:text="🚩"
+                android:textSize="30sp"
+                android:textColor="@android:color/black"
+                android:background="@drawable/oblong_background"
+                 />
+
+            <Button
+                android:id="@+id/button9"
+
+                android:layout_width="170dp"
+                android:layout_height="80dp"
+                android:layout_margin="8dp"
+                android:text="🚩"
+                android:textSize="30sp"
+                android:textColor="@android:color/black"
+                android:background="@drawable/oblong_background"
+                />
+
+            <Button
+                android:layout_width="170dp"
+                android:layout_height="80dp"
+                android:layout_margin="8dp"
+                android:text="🎌"
+                android:textSize="30sp"
+                android:textColor="@android:color/black"
+                android:background="@drawable/oblong_background"
+                android:onClick="onButtonClick10" />
+
+        </LinearLayout>
+
+    </LinearLayout>
+
+</LinearLayout>
+
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".MainActivity2">
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentEnd="true"
+        android:layout_centerInParent="true"
+        android:layout_centerHorizontal="true"
+        android:layout_centerVertical="true"
+        android:layout_marginEnd="78dp"
+        android:text="🫵"
+        android:textSize="200dp" />
+
+
+</RelativeLayout>
+
+<shape xmlns:android="http://schemas.android.com/apk/res/android"
+    android:shape="rectangle">
+    <solid android:color="@android:color/white" />
+    <corners android:radius="20dp" />
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="6dp"
+        android:layout_marginBottom="80dp"
+        android:text="STILL YOU BRO"
+        android:textColor="@android:color/white"
+        android:textSize="30sp"
+        android:textStyle="bold" />
+
+</shape>
+
+package com.example.myapplication;
+
+import androidx.appcompat.app.AppCompatActivity;
+
+import android.os.Bundle;
+
+public class MainActivity2 extends AppCompatActivity {
+
+    @Override
+    protected void onCreate(Bundle savedInstanceState) {
+        super.onCreate(savedInstanceState);
+        setContentView(R.layout.activity_main2);
+    }
+}
