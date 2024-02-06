@@ -1,4 +1,6 @@
-Hi ![](https://user-images.githubusercontent.com/18350557/176309783-0785949b-9127-417c-8b55-ab5a4333674e.gif)My name is Ayma Waqar ==================================================================================================================================  Bioengineering & Entrepreneurship ---------------------------------  I have been coding for 5 years and am working on Medical Devices & Robotics. Most of my projects are BE related!  * 🌍  I'm based in Philadelphia * ✉️  You can contact me at [aymawaqar@gmail.com](mailto:aymawaqar@gmail.com) * 🧠  I'm learning Java * 🤝  I'm open to collaborating on any health or medical device related projects * ⚡  PS: my eventual aim is to make a real life R2D2 :)
+Hi ![](https://user-images.githubusercontent.com/18350557/176309783-0785949b-9127-417c-8b55-ab5a4333674e.gif)My name is Ayma Waqar 
+Bioengineering & Entrepreneurship 
+I have been coding for 5 years and am working on Medical Devices & Robotics. Most of my projects are BE related!   🌍  I'm based in Philadelphia  ✉️  You can contact me at [aymawaqar@gmail.com](mailto:aymawaqar@gmail.com)  🧠  I'm learning Java  🤝  I'm open to collaborating on any health or medical device related projects  ⚡  PS: my eventual aim is to make a real life R2D2 :)
 
 ### Skills  
 
