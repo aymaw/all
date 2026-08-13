@@ -1,14 +1,14 @@
 [![DOI](https://zenodo.org/badge/DOI/10.5281/zenodo.21924082.svg)](https://doi.org/10.5281/zenodo.21924082)
 
-Hi ![](https://user-images.githubusercontent.com/18350557/176309783-0785949b-9127-417c-8b55-ab5a4333674e.gif)My name is Ayma Waqar 
-I am studying Bioengineering & Entrepreneurship. 
-I have been coding for 5 years and am currently working on Medical Devices & Robotics. So understandably, most of my projects are BE related!   
+Hi, I'm Ayma Waqar.
 
-🌍  I'm based in Philadelphia, PA.  ✉️  You can contact me at [aymawaqar@gmail.com](mailto:aymawaqar@gmail.com)  
+I'm a software engineer with a background in bioengineering, medical devices, robotics, and entrepreneurship. I graduated from the University of Pennsylvania in May 2026 with graduate and undergraduate training in Bioengineering and Entrepreneurship.
 
-🤝  I'm open to collaborating on any health or medical device related projects.  
+I'm interested in building software at the intersection of healthcare, human-centered systems, robotics, and applied AI.
 
-⚡  PS: my eventual aim is to make a real life R2D2 :)
+🌍 Based in New York, NY  
+✉️ Contact: [aymawaqar@gmail.com](mailto:aymawaqar@gmail.com)  
+🤝 Open to collaborating on health tech, medical device, robotics, and AI projects.
 
  Skills  
 
