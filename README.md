@@ -1,3 +1,5 @@
+[![DOI](https://zenodo.org/badge/DOI/10.5281/zenodo.21924082.svg)](https://doi.org/10.5281/zenodo.21924082)
+
 Hi ![](https://user-images.githubusercontent.com/18350557/176309783-0785949b-9127-417c-8b55-ab5a4333674e.gif)My name is Ayma Waqar 
 I am studying Bioengineering & Entrepreneurship. 
 I have been coding for 5 years and am currently working on Medical Devices & Robotics. So understandably, most of my projects are BE related!   
